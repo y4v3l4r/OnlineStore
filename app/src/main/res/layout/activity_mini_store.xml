@@ -1,0 +1,128 @@
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="fill_parent"
+    android:layout_height="fill_parent"
+    android:fillViewport="true">
+
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:orientation="vertical"
+    android:background="@drawable/crystal"
+    tools:context=".MiniStore">
+
+    <TextView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:text="Crystal Figurines"
+        android:textColor="@android:color/white"
+        android:textSize="30dp"
+        android:paddingHorizontal="80dp"
+        android:background="@android:color/holo_purple"
+        />
+    <!--Owl Figurine-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="105dp"
+            android:layout_height="100dp"
+            android:src="@drawable/amethystOwl"
+            />
+        <CheckBox
+            android:layout_width="275dp"
+            android:layout_height="90dp"
+            android:text=" 'Wisdom of the Amethyst Owl' figurine"
+            android:textColor="@android:color/holo_purple"
+            android:textSize="20dp"
+            />
+    </LinearLayout>
+
+    <!--Owl Buttons-->
+    <LinearLayout
+    android:layout_width="wrap_content"
+    android:layout_height="wrap_content">
+
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:text="+"
+        android:textSize="10dp"
+        />
+    <Button
+        android:layout_width="50dp"
+        android:layout_height="35dp"
+        android:text="-"
+        android:textSize="10dp"/>
+
+    </LinearLayout>
+
+    <!--Unicorn Statue-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="105dp"
+            android:layout_height="130dp"
+            android:src="@drawable/amazonite"
+            />
+        <CheckBox
+            android:layout_width="275dp"
+            android:layout_height="120dp"
+            android:text=" 'Amazonite Unicorn Statue' figurine"
+            android:textColor="@android:color/holo_blue_light"
+            android:textSize="20dp"
+            />
+    </LinearLayout>
+
+<!--Unicorn Buttons-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="35dp" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="35dp" />
+    </LinearLayout>
+
+<!--Elephant Figurine-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+
+        <ImageView
+            android:layout_width="105dp"
+            android:layout_height="140dp"
+            android:src="@drawable/elephant"
+            />
+        <CheckBox
+            android:layout_width="275dp"
+            android:layout_height="120dp"
+            android:text=" 'Rose Quartz Elephant' figurine"
+            android:textColor="@android:color/holo_orange_light"
+            android:textSize="20dp"
+            />
+    </LinearLayout>
+
+<!--Elephant buttons-->
+    <LinearLayout
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content">
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="35dp" />
+
+        <Button
+            android:layout_width="50dp"
+            android:layout_height="35dp" />
+    </LinearLayout>
+
+</LinearLayout>
+
+</ScrollView>
